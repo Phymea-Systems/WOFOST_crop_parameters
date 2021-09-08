@@ -526,6 +526,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_soybean:
+            <<: *soybean
         Soybean_901:
             <<: *soybean
             TSUM1:
