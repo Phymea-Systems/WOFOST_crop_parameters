@@ -516,7 +516,7 @@ CropParameters:
             - ['-']
     Varieties:
         Base_cassava:
-            <<: *cassava    
+            <<: *cassava
         Cassava_VanHeemst_1988:
             <<: *cassava
             TSUM1:
