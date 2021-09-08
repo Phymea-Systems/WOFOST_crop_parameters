@@ -522,6 +522,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_potato:
+            <<: *potato
         Potato_701:
             <<: *potato
             TSUM1:
