@@ -534,6 +534,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_fababean:
+            <<: *fababean
         Faba_bean_801:
             <<: *fababean
             TSUM1:
