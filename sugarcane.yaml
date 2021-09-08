@@ -533,6 +533,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_sugarcane:
+            <<: *sugarcane
         Sugarcane_VanHeemst_1988:
             <<: *sugarcane
             TSUM1:
