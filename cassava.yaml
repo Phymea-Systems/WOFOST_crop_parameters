@@ -515,6 +515,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_cassava:
+            <<: *cassava    
         Cassava_VanHeemst_1988:
             <<: *cassava
             TSUM1:
