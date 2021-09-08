@@ -526,6 +526,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_sunflower:
+            <<: *sunflower
         Sunflower_1101:
             <<: *sunflower
             TSUM1:
