@@ -997,6 +997,10 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_tropical_maize:
+            <<: *tropical_maize
+        Base_temperate_maize:
+            <<: *temperate_maize
         Maize_VanHeemst_1988:
             <<: *tropical_maize
             TSUM1:
