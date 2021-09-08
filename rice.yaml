@@ -987,6 +987,10 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_rice_eu:
+            <<: *rice_eu
+        Base_rice_irri:
+            <<: *rice_irri
         Rice_501:
             <<: *rice_eu
             TSUM1:
