@@ -1,5 +1,5 @@
-Parameter sets for the WOFOST crop simulation model
-===================================================
+Parameter sets for the WOFOST crop simulation model UPDATED for use with PhyDro database.
+=========================================================================================
 
 This repository contains the parameter sets for 22 crops for the WOFOST
 crop simulation model.
@@ -76,6 +76,9 @@ that supports units during model definition and simulation.
 The indenting and general structure of the parameter files are part of the YAML syntax and not only
 enhance readability of the file, but also are essential for YAML to parse it.
 
+For use with the PhyDro database, a small change has been made to the files to handle ecotypes properly, 
+a 'base_variety' has been added to each ecotype without parameters, so that it can be used by the model, 
+with added parameters from the database. 
 
 .. _cultivars: https://en.wikipedia.org/wiki/Cultivar
 .. _EcoTypes: https://en.wikipedia.org/wiki/Ecotype
@@ -126,6 +129,12 @@ which provides a DataProvider that can directly use the YAML crop parameter file
 Moreover, the PCSE `AgroManager`_ is designed to work with the YAMLCropDataProvider and the parameters files
 by referring to the crop type (``crop_name``) and crop variety (``variety_name``) in its definition of the
 agromanagement:
+
+The PhyDro interface only adds its varieties on top of the initial file structure, 
+via selecting the base value of the ecotype with 'set_active_crop', 
+and switching parameters values with functions .set_override(par, val). 
+
+The definition of new ecotypes is strictly left in the datafiles management. 
 
 .. _AgroManager: http://pcse.readthedocs.io/en/master/reference_guide.html#the-agromanager
 
