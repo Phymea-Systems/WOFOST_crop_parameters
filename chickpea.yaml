@@ -532,6 +532,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_chickpea:
+            <<: *chickpea
         Chickpea_VanHeemst_1988:
             <<: *chickpea
             TSUM1:
