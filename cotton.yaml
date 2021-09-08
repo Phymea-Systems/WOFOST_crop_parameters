@@ -522,6 +522,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_cotton:
+            <<: *cotton
         Cotton_VanHeemst_1988:
             <<: *cotton
             TSUM1:
