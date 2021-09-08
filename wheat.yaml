@@ -530,7 +530,9 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
-        Winter_wheat_101:
+         Base_winterwheat:
+            <<: *winterwheat
+         Winter_wheat_101:
             <<: *winterwheat
             DLO:
             - 16.8
