@@ -523,6 +523,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_pigeonpea:
+            <<: *pigeonpea
         Pigeonpea_VanHeemst_1988:
             <<: *pigeonpea
             TSUM1:
