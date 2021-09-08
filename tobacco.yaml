@@ -516,6 +516,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_tobacco:
+            <<: *tobacco
         Tobacco_VanHeemst_1988:
             <<: *tobacco
             TSUM1:
