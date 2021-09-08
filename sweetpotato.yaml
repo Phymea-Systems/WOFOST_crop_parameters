@@ -519,6 +519,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_sweetpotato:
+            <<: *sweetpotato
         Sweetpotato_VanHeemst_1988:
             <<: *sweetpotato
             TSUM1:
