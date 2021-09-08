@@ -525,7 +525,7 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
-        BAse_groundnut:
+        Base_groundnut:
             <<: *groundnut
         Groundnut_VanHeemst_1988:
             <<: *groundnut
