@@ -533,6 +533,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_rapeseed:
+            <<: *rapeseed
         Oilseed_rape_1001:
             <<: *rapeseed
             TSUM1:
