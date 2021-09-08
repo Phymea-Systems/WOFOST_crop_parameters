@@ -522,6 +522,8 @@ CropParameters:
             - maximum relative death rate of leaves due to nutrient NPK stress
             - ['-']
     Varieties:
+        Base_springbarley:
+            <<: *springbarley
         Spring_barley_301:
             <<: *springbarley
             TSUM1:
